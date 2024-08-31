@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://showcases.yalco.kr/html-css/01-06/table.css">
+  <title>Document</title>
+</head>
+<body>
+   <table>
+    <caption>1부터 9까지</caption>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+   </table>
+   <br>
+
+   <table>
+    <caption>색이 달라요</caption>
+    <thead>
+      <tr>
+        <th>점수</th>
+        <th>국어</th>
+        <th>영어</th>
+        <th>수학</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>-</th>
+        <td>100</td>
+        <td>20</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>-</td>
+        <td>60</td>
+        <td>70</td>
+        <td>65</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>지짜</th>
+        <th>뭔지</th>
+        <th>모르</th>
+        <th>겠다.</th>
+      </tr>
+    </tfoot>
+  </table>
+
+  <br>
+
+  <table>
+    <tr>
+      <td>1</td>
+      <td colspan="2">2</td> <!-- 2행을 먹음-->
+      <td>1</td>
+    </tr>
+    <tr>
+      <td rowspan="3">3</td><!--3열을 먹음-->
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td colspan="2" rowspan="2">4</td> <!--2열과 2행을 먹음-->
+    </tr>
+    <tr>
+      <td>1</td>
+    </tr>
+  </table>
+
+
+</body>
+</html>
